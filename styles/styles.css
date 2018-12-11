@@ -3,7 +3,16 @@ body {
     padding-bottom: 40px;
     background-color: #eee;
 }
+.error{
+    color:red;
+}
+.success{
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
 
+}
 .form-contact {
     max-width: 330px;
     padding: 15px;
