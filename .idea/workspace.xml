@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dac14baa-a6a4-47af-bd17-c405e187e462" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/message_process.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="dac14baa-a6a4-47af-bd17-c405e187e462" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
           <entry key="css" value="112" />
           <entry key="html" value="350" />
           <entry key="php" value="1519" />
-          <entry key="txt" value="94" />
+          <entry key="txt" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -88,7 +81,7 @@
           <entry key="CSS" value="112" />
           <entry key="HTML" value="350" />
           <entry key="PHP" value="1519" />
-          <entry key="PLAIN_TEXT" value="94" />
+          <entry key="PLAIN_TEXT" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -208,7 +201,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1033" />
@@ -293,7 +286,7 @@
       <workItem from="1544546965544" duration="1772000" />
       <workItem from="1544548795061" duration="1768000" />
       <workItem from="1544550680689" duration="1767000" />
-      <workItem from="1544552501102" duration="448000" />
+      <workItem from="1544552501102" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="changed links&#10;added sqlite db&#10;contact insert works">
       <created>1544545607464</created>
@@ -302,17 +295,23 @@
       <option name="project" value="LOCAL" />
       <updated>1544545607464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="back-end form validation&#10;save previously inputted data after unsuccessful submit">
+      <created>1544553225945</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544553225945</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28462000" />
+    <option name="totallyTimeSpent" value="28988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -341,7 +340,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed links&#10;added sqlite db&#10;contact insert works" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed links&#10;added sqlite db&#10;contact insert works" />
+    <MESSAGE value="back-end form validation&#10;save previously inputted data after unsuccessful submit" />
+    <option name="LAST_COMMIT_MESSAGE" value="back-end form validation&#10;save previously inputted data after unsuccessful submit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php" />
