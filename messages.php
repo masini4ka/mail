@@ -16,7 +16,7 @@
         <ul class="nav navbar-nav">
             <li><a href="/mailing/index.html">Home</a></li>
             <li class="active"> <a href="/mailing/messages.php">Messages</a></li>
-            <li><a href="/mailing/contact.html">Contact</a></li>
+            <li><a href="/mailing/contact.php">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -31,6 +31,7 @@ $sql = "SELECT * FROM maildata";
 $result = $db->query($sql);
 
 while ($row = $result->fetchArray(SQLITE3_ASSOC)){
-    echo 'From: '. $row['Name'] .'<br>' . 'Text: '.$row['Message'] . '<br/><br>';
+    echo 'From: '. $row['Name'] . ' ('.$row['Email'].')'.'<br>' . 'Message: '.$row['Message'] . '<br/><br>';
 }
 unset($db);
+
