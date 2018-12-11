@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>MAIL</title>
@@ -15,12 +14,23 @@
             <a class="navbar-brand" href="#">M-mail</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li> <a href="/mailing/messages.php">Messages</a></li>
+            <li><a href="/mailing/index.html">Home</a></li>
+            <li class="active"> <a href="/mailing/messages.php">Messages</a></li>
             <li><a href="/mailing/contact.html">Contact</a></li>
         </ul>
     </div>
 </nav>
-
 </body>
 </html>
+<?php
+
+require ("db_connect.php");
+
+
+$sql = "SELECT * FROM maildata";
+$result = $db->query($sql);
+
+while ($row = $result->fetchArray(SQLITE3_ASSOC)){
+    echo 'From: '. $row['Name'] .'<br>' . 'Text: '.$row['Message'] . '<br/><br>';
+}
+unset($db);
