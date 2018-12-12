@@ -24,7 +24,7 @@ SQLite3
 
 
 ## Running the tests
-
+Test folder is located in "tests\unit" directory.
 
 ## Versioning
 
