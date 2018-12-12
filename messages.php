@@ -29,6 +29,10 @@ require ("db_connect.php");
 
 $sql = "SELECT * FROM maildata";
 $result = $db->query($sql);
+/**
+ * Display message if no records are found in the maildata table
+ * OR show the records
+ */
 if ($db->querySingle("SELECT COUNT(*) as count FROM maildata")==0){
     echo "<div><p>No mail here yet</p></div>";
 }else{
