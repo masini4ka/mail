@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * Validation of user input data
+ * Insert into the db if no errors
+ */
 require ("db_connect.php");
 $name=$email=$msg=$email_error=$msg_error=$name_error=$success="";
 function test_input($input){
