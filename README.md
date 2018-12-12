@@ -36,7 +36,7 @@ SQLite3
 
 4. Start Apache server
 
-5. In browser of your choice gon to localhost\mailing
+5. In browser of your choice go to "localhost\mailing"
 
 
 ## Running the tests
