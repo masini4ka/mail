@@ -8,10 +8,11 @@ Contains simple contact form, which allows user submit messages (insert them int
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
-PHP 7.* 
-Composer
-Xampp
-PHPUnit
+PHP 7.*
+Composer.
+Xampp.
+PHPUnit.
+SQLite3.
 
 
 ### Installing
