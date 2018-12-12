@@ -34,7 +34,7 @@ SQLite3
     }
     
 
-4. Start Apache server
+4. Start Apache server.
 
 5. In browser of your choice go to "localhost\mailing"
 
