@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dac14baa-a6a4-47af-bd17-c405e187e462" name="Default Changelist" comment="more test_cases">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="dac14baa-a6a4-47af-bd17-c405e187e462" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/unit/maildatabase.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/message_processTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +68,7 @@
     <session id="-2077492417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.12" value="1" />
@@ -165,8 +166,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/unit/message_processTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="578">
+              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -372,17 +373,6 @@
               <item name="mailing" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mailing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mailing" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mailing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mailing" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -496,7 +486,7 @@
       <workItem from="1544612379669" duration="1436000" />
       <workItem from="1544616410279" duration="1361000" />
       <workItem from="1544618224817" duration="1769000" />
-      <workItem from="1544620050574" duration="205000" />
+      <workItem from="1544620050574" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="changed links&#10;added sqlite db&#10;contact insert works">
       <created>1544545607464</created>
@@ -533,13 +523,17 @@
       <option name="project" value="LOCAL" />
       <updated>1544606239624</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="more test_cases">
+      <created>1544620288085</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544620288085</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="message_processTest_test_mult_input_length - 2018.12.12 at 13h 47m 41s.xml">
-      <configuration name="message_processTest.test_mult_input_length" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="message_processTest_test_mult_input_length - 2018.12.12 at 13h 48m 06s.xml">
       <configuration name="message_processTest.test_mult_input_length" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -567,9 +561,12 @@
     <history-entry file="message_processTest_test_inputNoSlashes - 2018.12.12 at 14h 10m 03s.xml">
       <configuration name="message_processTest.test_inputNoSlashes" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="message_processTest_test_inputLength - 2018.12.12 at 14h 11m 13s.xml">
+      <configuration name="message_processTest.test_inputLength" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42820000" />
+    <option name="totallyTimeSpent" value="43517000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,7 +579,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.22818792" />
       <window_info id="Structure" order="1" sideWeight="0.50209206" side_tool="true" weight="0.3395973" />
@@ -618,7 +614,8 @@
     <MESSAGE value="contact change" />
     <MESSAGE value="db" />
     <MESSAGE value="phpunit start" />
-    <option name="LAST_COMMIT_MESSAGE" value="phpunit start" />
+    <MESSAGE value="more test_cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="more test_cases" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php" />
@@ -702,8 +699,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/message_processTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="578">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
         </state>
       </provider>
     </entry>

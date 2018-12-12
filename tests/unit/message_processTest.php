@@ -41,8 +41,4 @@ class message_processTest extends TestCase
         $this->assertGreaterThanOrEqual( strlen($trimmed2), strlen($input2));
     }
 
-
-
-
-
 }
