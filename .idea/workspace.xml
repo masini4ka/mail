@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dac14baa-a6a4-47af-bd17-c405e187e462" name="Default Changelist" comment="" />
+    <list default="true" id="dac14baa-a6a4-47af-bd17-c405e187e462" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maildatabase.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/maildatabase.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/message_process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/messages.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <executablePath>composer</executablePath>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2024347100">
@@ -60,51 +69,83 @@
     <session id="-2077492417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="112" />
           <entry key="html" value="350" />
-          <entry key="php" value="1519" />
-          <entry key="txt" value="193" />
+          <entry key="php" value="2135" />
+          <entry key="txt" value="378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="112" />
           <entry key="HTML" value="350" />
-          <entry key="PHP" value="1519" />
-          <entry key="PLAIN_TEXT" value="193" />
+          <entry key="PHP" value="2135" />
+          <entry key="PLAIN_TEXT" value="378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="6" />
+          <entry key="html" value="1" />
+          <entry key="json" value="1" />
+          <entry key="php" value="10" />
           <entry key="rnc" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="6" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="PHP" value="10" />
           <entry key="RNG Compact" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.actions">
+        <counts>
+          <entry key="addDependencyDialog_from_ComposerEditorNotificationPanel.ExtraActions" value="1" />
+          <entry key="init_from_MainMenu" value="1" />
+          <entry key="updatePackage_from_AddDependencyDialog" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options">
+        <counts>
+          <entry key="updatePackage_with_--ansi_--no-interaction_--no-progress.default" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.test">
+        <counts>
+          <entry key="source.empty" value="2" />
+          <entry key="with.framework.PHPUnit 6+.without.selected.methods" value="2" />
+          <entry key="without.target.element" value="2" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mailing" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -112,17 +153,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/messages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="422">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/unit/message_processTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -130,7 +176,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="291">
               <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
             </state>
           </provider>
@@ -139,20 +185,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="13" selection-start-line="16" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="e#6#29#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/message_process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+            <state relative-caret-position="456">
+              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -175,6 +218,17 @@
       <find>sr-only</find>
     </findStrings>
   </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="phpdoc -d . . " />
+      <command text="phpdoc -d C:\xampp\htdocs\mailing C:\xampp\htdocs\mailing" />
+      <command text="phpdoc -d C:\xampp\htdocs\mailing C:\Users\Maki\Desktop" />
+      <command text="phpdoc -d C:\xampp\htdocs\mailing -t C:\Users\Maki\Desktop" />
+      <command text="phpdoc -d C:\xampp\htdocs\mailing -t C:\xampp\htdocs\mailing" />
+      <command text="phpdoc -d C:/xampp/htdocs/mailing -t C:/xampp/htdocs/mailing" />
+      <command text="phpdoc -d ./mailing -t ./mailing" />
+    </commandsHistory>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -184,14 +238,16 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/styles/contact.html" />
         <option value="$PROJECT_DIR$/js/jj.js" />
-        <option value="$PROJECT_DIR$/db_connect.php" />
         <option value="$PROJECT_DIR$/mesages.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/contact.php" />
-        <option value="$PROJECT_DIR$/message_process.php" />
-        <option value="$PROJECT_DIR$/messages.php" />
         <option value="$PROJECT_DIR$/styles/styles.css" />
+        <option value="$PROJECT_DIR$/contact.php" />
+        <option value="$PROJECT_DIR$/db_connect.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Test.php" />
+        <option value="$PROJECT_DIR$/tests/unit/message_processTest.php" />
+        <option value="$PROJECT_DIR$/messages.php" />
+        <option value="$PROJECT_DIR$/message_process.php" />
       </list>
     </option>
   </component>
@@ -201,10 +257,101 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/hoa/exception" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection" />
+      <path value="$PROJECT_DIR$/vendor/hoa/ustring" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/graphviz" />
+      <path value="$PROJECT_DIR$/vendor/hoa/zformat" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/fileset" />
+      <path value="$PROJECT_DIR$/vendor/hoa/consistency" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/phpdocumentor" />
+      <path value="$PROJECT_DIR$/vendor/hoa/iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/hoa/protocol" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/hoa/regex" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/hoa/file" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/hoa/stream" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/hoa/math" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/hoa/compiler" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/hoa/event" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/hoa/visitor" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/herrera-io/json" />
+      <path value="$PROJECT_DIR$/vendor/herrera-io/phar-update" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/kherge/version" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-filter" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-config" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-hydrator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-i18n" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-cache" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-serializer" />
+      <path value="$PROJECT_DIR$/vendor/zetacomponents/document" />
+      <path value="$PROJECT_DIR$/vendor/zetacomponents/base" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/cilex/console-service-provider" />
+      <path value="$PROJECT_DIR$/vendor/cilex/cilex" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="width" value="960" />
-    <option name="height" value="1033" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -225,6 +372,17 @@
               <item name="mailing" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mailing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mailing" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mailing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mailing" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -234,10 +392,12 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -255,6 +415,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="UnitTesting" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner directory="$PROJECT_DIR$/tests" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner directory="$PROJECT_DIR$/tests" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -286,7 +456,12 @@
       <workItem from="1544546965544" duration="1772000" />
       <workItem from="1544548795061" duration="1768000" />
       <workItem from="1544550680689" duration="1767000" />
-      <workItem from="1544552501102" duration="974000" />
+      <workItem from="1544552501102" duration="1752000" />
+      <workItem from="1544558458029" duration="1757000" />
+      <workItem from="1544560280799" duration="487000" />
+      <workItem from="1544602015016" duration="1723000" />
+      <workItem from="1544603892064" duration="1777000" />
+      <workItem from="1544605790864" duration="1766000" />
     </task>
     <task id="LOCAL-00001" summary="changed links&#10;added sqlite db&#10;contact insert works">
       <created>1544545607464</created>
@@ -302,30 +477,94 @@
       <option name="project" value="LOCAL" />
       <updated>1544553225945</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="contact change">
+      <created>1544553599289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544553599289</updated>
+    </task>
+    <task id="LOCAL-00004" summary="db">
+      <created>1544553680071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544553680071</updated>
+    </task>
+    <task id="LOCAL-00005" summary="phpunit start">
+      <created>1544606239624</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544606239624</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UnitTesting - 2018.12.12 at 10h 13m 27s.xml">
+      <configuration name="UnitTesting" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.12.12 at 10h 15m 58s.xml">
+      <configuration name="UnitTesting" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.12.12 at 10h 16m 31s.xml">
+      <configuration name="UnitTesting" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.12.12 at 10h 18m 33s.xml">
+      <configuration name="UnitTesting" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.12.12 at 10h 19m 53s.xml">
+      <configuration name="UnitTesting" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.12.12 at 10h 20m 09s.xml">
+      <configuration name="UnitTesting" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.12.12 at 10h 22m 22s.xml">
+      <configuration name="UnitTesting" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.12.12 at 10h 22m 41s.xml">
+      <configuration name="UnitTesting" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.12.12 at 10h 22m 57s.xml">
+      <configuration name="UnitTesting" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.12.12 at 10h 23m 10s.xml">
+      <configuration name="UnitTesting" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28988000" />
+    <option name="totallyTimeSpent" value="37276000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="840" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3295302" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.1624161" />
+      <window_info id="Structure" order="1" sideWeight="0.50209206" side_tool="true" weight="0.3395973" />
+      <window_info id="Favorites" order="2" sideWeight="0.50209206" side_tool="true" weight="0.3395973" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.07072136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32390383" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="12" visible="true" weight="0.7200577" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -341,20 +580,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed links&#10;added sqlite db&#10;contact insert works" />
     <MESSAGE value="back-end form validation&#10;save previously inputted data after unsuccessful submit" />
-    <option name="LAST_COMMIT_MESSAGE" value="back-end form validation&#10;save previously inputted data after unsuccessful submit" />
+    <MESSAGE value="contact change" />
+    <MESSAGE value="db" />
+    <MESSAGE value="phpunit start" />
+    <option name="LAST_COMMIT_MESSAGE" value="phpunit start" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.239/data.php" />
     <entry file="file://$PROJECT_DIR$/../index.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mesages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
@@ -365,55 +600,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jj.js" />
     <entry file="file://$PROJECT_DIR$/contact_.php" />
-    <entry file="file://$PROJECT_DIR$/contact.html">
+    <entry file="file://$PROJECT_DIR$/contact.html" />
+    <entry file="file://$PROJECT_DIR$/.idea/commandlinetools/Custom_phpdoc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state relative-caret-position="278">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_connect.php">
+    <entry file="file://$PROJECT_DIR$/mesages.html" />
+    <entry file="file://$PROJECT_DIR$/tests/unit/Test.php" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="13" selection-start-line="16" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#6#29#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message_process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messages.php">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="291">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/tests/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+        <state relative-caret-position="422">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/message_processTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message_process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
         </state>
       </provider>
     </entry>
