@@ -33,10 +33,12 @@ SQLite3
         "phpunit/phpunit": "^7.0"
     }
     
+4. Configure PHPUnit in PHPStorm (File>Settings>TestFrameworks), choose "Use composer autoloader" and set path to autoload.php, should be in mailing\vendor directory. Then in PHPStorm menu navigate to Run>Edit Configuration, click "+", add "PHPUnit" and set the directory to "xampp\htdocs\mailing\tests".
+    
 
-4. Start Apache server.
+5. Start Apache server.
 
-5. In browser of your choice go to "localhost\mailing"
+6. In browser of your choice go to "localhost\mailing"
 
 
 ## Running the tests
