@@ -29,9 +29,13 @@ require ("db_connect.php");
 
 $sql = "SELECT * FROM maildata";
 $result = $db->query($sql);
-
-while ($row = $result->fetchArray(SQLITE3_ASSOC)){
-    echo 'From: '. $row['Name'] . ' ('.$row['Email'].')'.'<br>' . 'Message: '.$row['Message'] . '<br/><br>';
+if ($db->querySingle("SELECT COUNT(*) as count FROM maildata")==0){
+    echo "<div><p>No mail here yet</p></div>";
+}else{
+    while ($row = $result->fetchArray(SQLITE3_ASSOC)){
+        echo 'From: '. $row['Name'] . ' ('.$row['Email'].')'.'<br>' . 'Message: '.$row['Message'] . '<br/><br>';
+    }
 }
+
 unset($db);
 

@@ -40,18 +40,4 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         $success="Your message has been saved";
         $name=$email=$msg="";
     }
-//header("location:contact.html");
 }
-//$name=$_REQUEST['name'];
-//$email=$_REQUEST['email'];
-//$msg=$_REQUEST['msg'];
-
-//$sql = "INSERT INTO maildata('Name', 'Email', 'Message') VALUES ('$name', '$email', '$msg')";
-//$result = $db->query($sql);
-
-//unset($db);
-//header("location:index.html?note=success");
-//header("location:\mailing\messages.php");
-//$query = mysqli_query($db_connect,'INSERT INTO maildata (name, email, message) VALUES (\'$name\', \'$email\',\'$msg\' )') or die(mysqli_error($db_connect));
-////mysqli_close($db_connect);
-////header("location:index.html?note=success");
